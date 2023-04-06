@@ -30,9 +30,24 @@ The three dimensional shape of the protein structure. The protein structure will
 
 
 
-
 ![overview of protein structure](https://user-images.githubusercontent.com/63524391/229656505-5670917a-1d9f-4d49-9bac-c2100618336e.png)
 Figure 1: An overview of a protein structure broken down to it's four structures.
+
+This is a machine learning algorithm for predicting the three dimensional structure of hemoglobin proteins. Hemoglobin proteins are responsible for transporting oxygen from the lungs to the body’s tissues. The input will be a sequence of amino acids in FASTA format. This format is just single-letter codes. This process is rather extensive considering this process is used to produce energy for cellular respiration. Cellular respiration is the process of using the hemoglobin proteins transported oxygen in order to be used in the electron transport chain to break down organic molecules to produce energy. Without the hemoglobin protein during cellular respiration, the result would be death of cells.
+
+The protein structure prediction model has plenty of real world applications. The ability to predict a protein structure can drastically improve and help scientists in the ability to produce new drugs and therapeutic treatments, upgrade the properties of proteins to enhance its efficiency, sustainability, and savings of cost. Outside of the biotechnology advantages of this predictor, it can also help farmers and their agricultural lifestyle because it can improve their crops being harvested. Understanding how proteins are involved in plant growth, farmers can optimize their cultivation strategies in order to increase their crops.
+
+The protein structure prediction model can come with various limitations and challenges. These challenges can vary from the complexity of the information that’s being inputted into the model and outputted from the information that’s given, the limiting accuracy although it’s a machine learning protein structure prediction model compared to the traditional way to obtaining the three dimensional structure of a given protein, which in this case is called X-ray crystallography. X-ray crystallography is a technique for determining the structure of macromolecules and proteins from a crystallized version of the protein. A crystallized version of a protein is obtained by exposing it to high concentration and x-ray beams. In terms of precision, X-ray crystallography would be considered as the more precision tool for predicting three dimensional protein structures because of their higher resolution images and locations for particular atoms within the protein structure.
+
+
+## Disclaimer
+
+## Credits
+
+This python-based machine learning algorithm was designed and updated by Jobin John. 
+
+## Works Cited
+- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1186895/
 
 
 
