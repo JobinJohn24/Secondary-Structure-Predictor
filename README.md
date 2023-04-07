@@ -2,7 +2,7 @@
 
 ## Brief Description
 
-This is a python-based machine learning algorithm to predict the three-dimensional structure of a given sequence of amino acids. This predictor is still being actively studied in the field of computational biology. This will be looking particularly at the proteins responsible for transporting and storing oxygen, Myoglobin.
+This is a python-based machine learning algorithm to predict the three-dimensional structure of a given sequence of amino acids. This predictor is still being actively studied in the field of computational biology. This will be looking particularly at the proteins responsible for transporting oxygen beneficial for the immune system, hemoglobin.
 
 ## Data Sources
 
