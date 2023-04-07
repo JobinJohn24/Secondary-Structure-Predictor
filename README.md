@@ -42,12 +42,16 @@ The protein structure prediction model can come with various limitations and cha
 
 ## Disclaimer
 
+This python-based protein structure predictor is for research and educational purposes only. Results of this predictor should not substitute experimental data nor should it substitute professional advice.
+
 ## Credits
 
 This python-based machine learning algorithm was designed and updated by Jobin John. 
 
 ## Works Cited
 - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1186895/
+- https://pubmed.ncbi.nlm.nih.gov/31942072/
+- https://www.sciencedirect.com/science/article/pii/S2405471219300766
 
 
 
