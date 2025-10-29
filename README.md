@@ -6,54 +6,42 @@ A bioinformatics pipeline integrating knot theory with genomic analysis to class
 
 This project analyzes 20 diverse DNA sequences (low to medium-high risk profiles) leveraging knot invariants and biophysical properties to predict secondary structure formation. By combining topological analysis with traditional bioinformatics, it provides novel risk stratification for synthetic biology.
 
-## Five Core Metrics
-
-| # | Test | Metric | Finding | Application |
-|---|------|--------|---------|-------------|
-| 1 | Test 1 | **GC Content** | Mean 53.39% | Thermal stability; 50-60% optimal for synthetic biology |
-| 2 | Test 2 | **Melting Temperature** | Mean 65.4°C | DNA denaturation prediction; critical for PCR design |
-| 3 | Test 3 | **Homopolymer Complexity** | 16.1% problematic | Detects risky repetitive sequences |
-| 4 | Test 4 | **Shannon Entropy** | Mean 1.163 | Lower entropy indicates higher secondary structure risk |
-| 5 | Test 5 | **Codon Usage Bias** | GAT/GAC dominant | Expression-level risks in synthetic constructs |
-
-## Results & Visualizations
-
-### Test 1: GC Content Distribution
-![Test 1: GC Content](./results/test1_gc_content.png)
-
-### Test 2: Melting Temperature Distribution
-![Test 2: Melting Temperature](./results/test2_tm_analysis.png)
-
-### Test 3: Homopolymer vs Complexity
-![Test 3: Homopolymer](./results/test3_homopolymer.png)
-
-### Test 4: Shannon Entropy Distribution
-![Test 4: Entropy](./results/test4_entropy.png)
-
-### Test 5: Codon Usage Bias
-![Test 5: Codon Bias](./results/test5_codon_bias.png)
-
-### Integrated Risk Assessment
-![Risk Landscape](./results/knot_risk_landscape.png)
-
-![Risk Distribution](./results/risk_distribution.png)
-
 ## Dataset Profile
 
 - **Sequences Analyzed**: 20 diverse DNA sequences
 - **Risk Distribution**: 35 low-risk, 27 medium-risk, 0 high-risk, 0 critical-risk
 - **Structural Variety**: Simple repeats, GC-rich, hairpin-prone, inverted structures, triplex-forming, palindromic, complex topologies
 
-## Methodology
+## Five Core Metrics
 
-### Knot Theory Integration
-Knot invariants (crossing numbers, complexity metrics) characterize DNA topology. Higher topological complexity correlates with secondary structure formation potential and functional compromise.
 
-### Five-Metric Approach
-Stratified risk classification using: thermodynamic stability (GC, Tm), structural propensity (homopolymers, entropy), and expression risk (codon bias).
+## Results & Visualizations
+### Test 1: GC Content Distribution
+![Test 1: GC Content](https://github.com/JobinJohn24/Secondary-Structure-Predictor/blob/main/analysis/test1_gc_content.png)
+*Figure 1.1 - Represents the distribution of guanine-cytosine content in DNA structures.*
+  
+### Test 2: Melting Temperature Distribution
+![Test 2: Melting Temperature](https://github.com/JobinJohn24/Secondary-Structure-Predictor/blob/main/analysis/test2_tm_analysis.png)
+*Figure 1.2 - Represents the temperature at which half of the hydrogen bonds of the double helix are broken and separated.*
 
-### Integration Strategy
-Combines topological analysis with biophysical metrics to identify sequences at risk of unwanted secondary structures, off-target interactions, and synthesis failures.
+### Test 3: Homopolymer vs Complexity
+![Test 3: Homopolymer](https://github.com/JobinJohn24/Secondary-Structure-Predictor/blob/main/analysis/test3_homopolymer.png)
+*Figure 1.3 - Represents the comparisons between being long runs of the same nucleotide or a varied sequence.*
+
+### Test 4: Shannon Entropy Distribution
+![Test 4: Entropy](https://github.com/JobinJohn24/Secondary-Structure-Predictor/blob/main/analysis/test4_entropy.png)
+*Figure 1.4 - Represents how entropy valleys aligns with knots, risky hotspots, and fragile sites.*
+
+### Test 5: Codon Usage Bias
+![Test 5: Codon Bias](https://github.com/JobinJohn24/Secondary-Structure-Predictor/blob/main/analysis/test5_codon_bias.png)
+*Figure 1.5 - Represents the likelihood of synonymous condons are used, which indicate translational risk & evolutionary pressure.*
+
+### Integrated Risk Assessment
+![Risk Landscape](https://github.com/JobinJohn24/Secondary-Structure-Predictor/blob/main/analysis/knot_risk_landscape.png)
+*Figure 1.6 - Represents the overlaying map of stability, entropy, condon bias, and topology, which reveal genomic 'hotspots' of biological & structural risk.* 
+
+![Risk Distribution](https://github.com/JobinJohn24/Secondary-Structure-Predictor/blob/main/analysis/risk_distribution.png)
+*Figure 1.7 - Represents the distribution of clusters of high-risk regions versus broadly stable zones.*
 
 ## Key Findings
 
@@ -76,7 +64,6 @@ python main.py
 - **Methods**: Knot invariant computation, thermodynamic modeling, statistical analysis
 
 ## Project Structure
-
 ```
 secondary_structure_predictor/
 ├── config.py                      # Configuration & thresholds
@@ -99,4 +86,22 @@ secondary_structure_predictor/
     ├── knot_risk_landscape.png
     ├── risk_distribution.png
     └── sequence_*.png             # 20 individual analyses
+```
+## Workflow
+```
+FASTA Input
+    ↓
+Parse DNA Sequences
+    ↓
+Extract Biophysical Metrics (GC, Tm, Homopolymers, Entropy, Codons)
+    ↓
+Analyze Topological Properties (Knot Theory)
+    ↓
+Predict Secondary Structure & Classify Risk
+    ↓
+Generate Visualizations (7 plots)
+    ↓
+Execute Pipeline & Generate Report
+    ↓
+20 Sequence Analyses + Comprehensive Visualizations + Summary Statistics
 ```
