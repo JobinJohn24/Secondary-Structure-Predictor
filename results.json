@@ -1,0 +1,158 @@
+{
+  "sequence_statistics": {
+    "sequence_1_low_risk_simple": {
+      "length": 72,
+      "gc_content": 0.5,
+      "at_content": 0.5,
+      "n_content": 0.0,
+      "unique_length": 72
+    },
+    "sequence_2_low_risk_repeats": {
+      "length": 74,
+      "gc_content": 0.16216216216216217,
+      "at_content": 0.8378378378378378,
+      "n_content": 0.0,
+      "unique_length": 74
+    },
+    "sequence_3_medium_risk_gc_rich": {
+      "length": 72,
+      "gc_content": 1.0,
+      "at_content": 0.0,
+      "n_content": 0.0,
+      "unique_length": 72
+    },
+    "sequence_4_medium_risk_complex": {
+      "length": 74,
+      "gc_content": 0.4864864864864865,
+      "at_content": 0.5135135135135135,
+      "n_content": 0.0,
+      "unique_length": 74
+    },
+    "sequence_5_medium_risk_inverted": {
+      "length": 73,
+      "gc_content": 0.5068493150684932,
+      "at_content": 0.4931506849315068,
+      "n_content": 0.0,
+      "unique_length": 73
+    },
+    "sequence_6_high_risk_hairpin1": {
+      "length": 73,
+      "gc_content": 0.589041095890411,
+      "at_content": 0.410958904109589,
+      "n_content": 0.0,
+      "unique_length": 73
+    },
+    "sequence_7_high_risk_hairpin2": {
+      "length": 74,
+      "gc_content": 0.5135135135135135,
+      "at_content": 0.4864864864864865,
+      "n_content": 0.0,
+      "unique_length": 74
+    },
+    "sequence_8_high_risk_secondary": {
+      "length": 75,
+      "gc_content": 0.49333333333333335,
+      "at_content": 0.5066666666666667,
+      "n_content": 0.0,
+      "unique_length": 75
+    },
+    "sequence_9_high_risk_triplex": {
+      "length": 75,
+      "gc_content": 0.0,
+      "at_content": 1.0,
+      "n_content": 0.0,
+      "unique_length": 75
+    },
+    "sequence_10_high_risk_nested": {
+      "length": 75,
+      "gc_content": 0.49333333333333335,
+      "at_content": 0.5066666666666667,
+      "n_content": 0.0,
+      "unique_length": 75
+    },
+    "sequence_11_critical_quadruplex": {
+      "length": 76,
+      "gc_content": 0.7894736842105263,
+      "at_content": 0.21052631578947367,
+      "n_content": 0.0,
+      "unique_length": 76
+    },
+    "sequence_12_critical_complex": {
+      "length": 75,
+      "gc_content": 0.49333333333333335,
+      "at_content": 0.5066666666666667,
+      "n_content": 0.0,
+      "unique_length": 75
+    },
+    "sequence_13_critical_highly_structured": {
+      "length": 72,
+      "gc_content": 1.0,
+      "at_content": 0.0,
+      "n_content": 0.0,
+      "unique_length": 72
+    },
+    "sequence_14_critical_knot_prone": {
+      "length": 75,
+      "gc_content": 0.49333333333333335,
+      "at_content": 0.5066666666666667,
+      "n_content": 0.0,
+      "unique_length": 75
+    },
+    "sequence_15_low_homopolymer": {
+      "length": 75,
+      "gc_content": 0.5333333333333333,
+      "at_content": 0.4666666666666667,
+      "n_content": 0.0,
+      "unique_length": 75
+    },
+    "sequence_16_medium_mixed": {
+      "length": 74,
+      "gc_content": 0.4864864864864865,
+      "at_content": 0.5135135135135135,
+      "n_content": 0.0,
+      "unique_length": 74
+    },
+    "sequence_17_high_palindrome": {
+      "length": 74,
+      "gc_content": 0.33783783783783783,
+      "at_content": 0.6621621621621622,
+      "n_content": 0.0,
+      "unique_length": 74
+    },
+    "sequence_18_critical_repetitive": {
+      "length": 78,
+      "gc_content": 0.5,
+      "at_content": 0.5,
+      "n_content": 0.0,
+      "unique_length": 78
+    },
+    "sequence_19_medium_tandem": {
+      "length": 75,
+      "gc_content": 0.6666666666666666,
+      "at_content": 0.3333333333333333,
+      "n_content": 0.0,
+      "unique_length": 75
+    },
+    "sequence_20_high_structured": {
+      "length": 75,
+      "gc_content": 0.49333333333333335,
+      "at_content": 0.5066666666666667,
+      "n_content": 0.0,
+      "unique_length": 75
+    }
+  },
+  "knot_summary": {
+    "total_windows_analyzed": 62,
+    "high_risk_windows": 0,
+    "average_complexity": 0.0918924731182796,
+    "max_complexity": 0.16133333333333336,
+    "high_risk_regions": [],
+    "risk_distribution": {
+      "LOW": 35,
+      "MEDIUM": 27,
+      "HIGH": 0,
+      "CRITICAL": 0
+    }
+  },
+  "high_risk_regions": []
+}
