@@ -13,6 +13,13 @@ This project looks twenty diverse DNA sequences. They cover risk profiles from l
 - **Structural Variety**: Simple repeats, GC-rich, hairpin-prone, inverted structures, triplex-forming, palindromic, complex topologies
 
 ## 📖 Five Core Metrics
+| Test | Metric | Mean | Standard Deviation | Finding |
+|------|--------|------|---------|----------|
+| **Test 1** | GC Content | 53.39% | 23.95% | Moderate thermal stability; optimal for synthetic applications |
+| **Test 2** | Melting Temperature | 65.4°C | 9.8°C | Stable DNA denaturation profile; suitable for PCR |
+| **Test 3** | Homopolymer Runs | 2.97 bp | — | 16.1% sequences problematic; structural risk indicator |
+| **Test 4** | Shannon Entropy | 1.163 | 0.525 | Low-moderate complexity; secondary structure propensity |
+| **Test 5** | Codon Bias | GAT/GAC | — | Complete analysis; expression-level risk assessment |
 
 
 ## 📈 Results & Visualizations
