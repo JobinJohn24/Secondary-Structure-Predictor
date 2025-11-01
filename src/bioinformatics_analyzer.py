@@ -1,4 +1,4 @@
-"""Bioinformatics Analysis - 5 Key Tests (Error-Free, 99 lines)."""
+"""Bioinformatics Analysis - 5 Key Tests"""
 
 import matplotlib.pyplot as plt
 import numpy as np
